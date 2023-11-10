@@ -1,0 +1,16 @@
+/* Define the custom font */
+@font-face {
+  font-family: 'Shabnam';
+  src: url('assets/font/Shabnam.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('assets/font/Vazir.woff') format('woff');
+}
+
+
+/* Apply the custom font to specific elements */
+.custom-font-text {
+  font-family: 'Shabnam', "Vazir";
+}
